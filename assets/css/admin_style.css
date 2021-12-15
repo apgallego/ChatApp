@@ -1,0 +1,17 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.users{
+    border: 1px solid black;
+    border-radius: 3px;
+    overflow: scroll;
+    height: 15em;
+}
+
+.user-admin{
+    border: 1px solid black;
+    display: flex;
+}
+
+/* .item::before, .item::after{content: ' // ';} */

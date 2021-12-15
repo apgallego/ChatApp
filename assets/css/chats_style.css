@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{border: 1px solid black; border-radius: 3px;}
+
+.main-container{
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 10px #111;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.sidebar{width: 100%;}
+
+.profile{
+    height: 5em;
+    background-color: red;
+    display: flex;
+}
+.search-contacts{height: 8em; background-color: pink;}
+.chats{height: 32.1em; background-color: yellow; overflow: scroll;}
+
+/*---------------------- NAVBAR ----------------------*/
+
+nav{background-color: white;}
+
+.nav-container{
+    margin: 0;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 0 3em;
+}
+
+nav{
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+.nav-container a{
+    margin: 1.5em;
+    display: inline;
+    text-decoration: none;
+    line-height: 0.2em;
+    width: 5em;
+}
+
+.nav-container a{color: black;}
+.nav-container a:hover{text-decoration: underline;}
+
+/*----------------------CHATS and PROFILE (aside)----------------------*/
+
+.chat{height: 5em;}
+
+.profile-data-box{
+    margin: 3px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: bold;
+}
+
+.profile img{
+    margin: 5px;
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+
+.profile-data-box p:nth-child(2), .profile-data-box p:nth-child(3) {
+    font-weight: normal;
+    font-size: 0.8em;
+}
+
+.profile a{
+    margin: 5px;
+    padding: 0 3px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.data-item{
+    margin: 0;
+}
+
+/*----------------------SEARCH CONTACTS (aside)----------------------*/
+
+.search-contacts{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 3px;
+}
+
+.search-contacts form select{
+    border: 1px solid black;
+    height: 70%;
+    border-radius: 3px;
+    background-color: pink;
+    width: 100%;
+}
+
+.chats a{
+    text-decoration: none;
+    color: black;
+    /* text-align: center; */
+    width: 100%;
+} 
+.chats a .chat{
+    height: 5em;
+    border: 1px solid black;
+    border-radius: 3px;
+    display: flex;
+}
+
+.chat img{
+    margin: 5px;
+    justify-self: flex-start;
+    align-self: center;
+    border: 1px solid black;
+    border-radius: 500px;
+    width: 70px;
+    height: 70px;
+}
