@@ -1,7 +1,7 @@
-# ChatApp
+# ChatApp 📲
 Chat Application developed for Server Side Development (@IESClaraDelRey)
 
-### 🎯 About this file
+### 🧐 About this file
 
 The purpose of this file is to provide overview, setup instructions and background information of the project.
 
@@ -11,7 +11,7 @@ Also found in the README file inside documentation folder
 > Admin user: root<br/>
 > Admin password: root<br/>
 
-## Features imlemented:
+## Features imlemented
 
 :heavy_check_mark: &nbsp;&nbsp;User Sign In & User Sign Up<br />
 :heavy_check_mark: &nbsp;&nbsp;User Sign Up with verification email<br />
@@ -32,13 +32,13 @@ Also found in the README file inside documentation folder
 
 ## Run Locally
 
-- Clone the project.
+- Clone the project
 
 ```bash
   git clone https://github.com/apgallego/ChatApp.git
 ```
-- Import the chatapp.sql in your XAMPP (PHPMyadmin).
-- Import the chatapp_initialdata.sql too.
+- Import the chatapp.sql in your XAMPP DBMS (PHPMyadmin)
+- Import the chatapp_initialdata.sql too
 
 ## Special greetings
  > Luis Monzón: https://github.com/Luis4609 <br/>
