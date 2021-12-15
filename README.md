@@ -35,14 +35,14 @@ Also found in the README file inside documentation folder
 - Clone the project.
 
 ```bash
-  git clone https://github.com/Luis4609/Chat-App.git**
+  **git https://github.com/apgallego/ChatApp.git**
 ```
 - Import the chatapp.sql in your XAMPP (PHPMyadmin).
 - Import the chatapp_initialdata.sql too.
 
 ## Special greetings
- > Luis Monzón: https://github.com/Luis4609
- > Félix Martínez: https://github.com/host4ideas
+ > Luis Monzón: https://github.com/Luis4609 <br/>
+ > Félix Martínez: https://github.com/host4ideas <br/>
 
 ## @IESClaraDelRey
 ## Tutor: Xabier Ganzábal (Server Side Development)
